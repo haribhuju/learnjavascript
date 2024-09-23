@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+  </head>
+  <body>
+    <div class="search">
+        <form action="/search.html" method="get">
+            <div>
+              <input type="radio" name="type" id="movie" value="movie" checked/>
+              <label for="movie">Movie</label>
+              <input type="radio" name="type" id="series" value="tv" />
+              <label for="series">Series</label>
+            </div>
+            <div>
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search for movies"
+                autocomplete="off"
+              />
+              <button type="submit">Search</button>
+            </div>
+      <div id="search-results-heading">
+      </div>
+      <div class="results">
+      </div>
+      <div id="pagination"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 333px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a > img {
+  width: 333px;
+  height: 380px;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-body {
+}
+
+.card-title {
+}
+
+.card-text {
+}
+
+.text-muted {
+}
